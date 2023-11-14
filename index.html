@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOLOGIZES ):</title>
+    <style>
+        body {
+            font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            margin-bottom: 3px;
+            margin-top: 20px;
+        }
+
+        .carousel img {
+            width: 80%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .message {
+            font-size: 35px;
+            line-height: 1.5;
+            margin-bottom: 100px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+    <!-- Ajouter les liens vers les fichiers CSS de Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>EXCUSES POUR MON ANGE</h1>
+    </header>
+
+    <main>
+        <div class="carousel">
+            <!-- Remplacez ces URLs par les liens réels de vos images -->
+            <img src="img1.jpeg" alt="(:">
+            <video width="100%" height="auto" controls>
+            <source src="vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            <img src="img.jpeg" alt="Babe">
+        </div>
+
+        <div class="message">
+            <p><b>Mon ange,</b></p>
+            <br>
+            <br>
+            <p>Je m'excuse profondément pour avoir été désagréable avec toi. Tu es une des personnes que j'aime le plus, et je ne veux jamais te faire de mal.
+                Les prises de têtes renforcent notre amour, et je promets de faire de mon mieux pour m'améliorer pour toi.
+                Merci de me pardonner (:.</p>
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        // Initialiser le carrousel une fois que la page est chargée
+        $(document).ready(function () {
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 5000, // Définir la vitesse d'autoplay en millisecondes
+                arrows: true, // Cacher les flèches de navigation
+                dots: true // Afficher les points de pagination
+            });
+        });
+    </script>
+</body>
+
+</html>
